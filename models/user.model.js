@@ -24,7 +24,6 @@ const UserSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 255
   },
-  //give different access rights if admin or not 
   role: {
     type: String,
     required: true,
