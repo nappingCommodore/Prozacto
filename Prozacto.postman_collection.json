@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "134caa15-cd74-4e44-97c1-939bf99f53b4",
+		"name": "Prozacto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/users/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"TestUser3\",\n\t\"password\": \"p@$$w0rd\",\n\t\"email\": \"testUser3@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/current",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZlMmJiZTQ4OTMwNTY3OGQ0NTRlZWIiLCJpYXQiOjE1ODQyNzg0NjJ9.aM7-1vinopakkts6aFmeKh2xqckHBQiZfdUm2jxiyn4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/users/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/current",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZlMzkzODg2M2ZkMTdjNWI0ODdiNTEiLCJpYXQiOjE1ODQyODE5MTJ9.uM-BG9tpUFf_2nhauxJQCL74Ubcbr4aQERzbZC4Qch0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/users/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/current",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZmYjRkZDA4YWIzYTRhOWNkZDg4ODEiLCJpYXQiOjE1ODQzNzkxMDJ9.URHSUGjsYsdplIbfxQY6t2y9zaZ7UGoDIe0VxCA-N3U",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/users/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/app/viewUpload",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZlMzkzODg2M2ZkMTdjNWI0ODdiNTEiLCJpYXQiOjE1ODQyODE5MTJ9.uM-BG9tpUFf_2nhauxJQCL74Ubcbr4aQERzbZC4Qch0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/app/viewUpload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"app",
+						"viewUpload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"TestUser3\",\n\t\"email\": \"testUser3@gmail.com\",\n\t\"password\": \"p@$$w0rd\",\n\t\"role\": \"ASSISTANT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/app/upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZlMzkzODg2M2ZkMTdjNWI0ODdiNTEiLCJpYXQiOjE1ODQyODE5MTJ9.uM-BG9tpUFf_2nhauxJQCL74Ubcbr4aQERzbZC4Qch0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file_data",
+							"type": "file",
+							"src": "/mnt/critical/niks/Documents/Projects/ectosense/Back End Developer Assignment.pdf"
+						},
+						{
+							"key": "file_data1",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/app/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"app",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/app/setAppointment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTZmYjRkZDA4YWIzYTRhOWNkZDg4ODEiLCJpYXQiOjE1ODQzNzkxMDJ9.URHSUGjsYsdplIbfxQY6t2y9zaZ7UGoDIe0VxCA-N3U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"PatientName\": \"TestUser2\",\n\t\"PatientId\": \"5e6e3938863fd17c5b487b51\",\n\t\"DoctorName\": \"TestUser1\",\n\t\"DoctorId\": \"5e6e2bbe489305678d454eeb\",\n\t\"AppointmentDateTime\": \"Mon Mar 16 2020 23:13:53 GMT+0530 (India Standard Time)\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/app/setAppointment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"app",
+						"setAppointment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/app/getAppointmentByPatient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/app/getAppointmentByPatient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"app",
+						"getAppointmentByPatient"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
