@@ -41,7 +41,6 @@ router.post('/upload', auth, async function(req, res, next) {
       if(err) {
         res.status(500).json({'Error': 'Some error occured while file upload.'});
       } else {
-        
         res.json({'message': 'File uploaded successfully'});
       }
     });
